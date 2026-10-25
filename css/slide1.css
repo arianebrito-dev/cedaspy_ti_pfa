@@ -1,0 +1,54 @@
+.carousel-inner>.item>img,
+.carousel-inner>.item>a>img {
+    width: 300%;
+    max-height: 700px;
+    margin: 0;
+    padding: 0;
+}
+
+.carousel-caption p {
+    text-align: center;
+}
+
+.botao1slide.left {
+    color: black;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.botao2slide.right {
+    color: black;
+    font-size: 25px;
+    padding: 0;
+    margin: 0;
+}
+
+.button-left {
+    position: absolute;
+    background-color: white;
+    border: solid white 5px;
+    padding: 0px 6px;
+    top: 50%;
+    left: 2%;
+    margin: 0;
+    transition: 0.5s;
+    border-radius: 90px;
+}
+
+.button-right {
+    position: absolute;
+    background-color: white;
+    border: solid white 5px;
+    padding: 0px 6px;
+    top: 50%;
+    left: 95%;
+    margin: 0;
+    transition: 0.5s;
+    border-radius: 90px;
+}
+
+.carousel.slide {
+    padding: 0;
+    margin: 0;
+}

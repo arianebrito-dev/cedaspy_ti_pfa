@@ -1,0 +1,599 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+ul {
+    padding: 0px !important;
+}
+
+.menu-principal {
+    width: 100%;
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.logo {
+    float: left;
+    padding: 10px;
+    width: 50%;
+}
+
+.redes-sociais {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.redes-sociais li {
+    margin-left: 10px;
+}
+
+.redes-sociais img {
+    width: 30px;
+    height: 30px;
+}
+
+.redes-sociais img:hover {
+    width: 40px;
+    height: 40px;
+}
+
+.menu-principal nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex;
+    width: 20%;
+    z-index: 2;
+}
+
+.header-2 {
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+.menu-urls {
+    height: 60px;
+    border-bottom: 3px solid antiquewhite;
+}
+
+.menu ul li {
+    display: inline-block;
+    color: black;
+    margin-left: 25px;
+    float: right;
+    height: 35px;
+    border-bottom: 0px solid yellow;
+}
+
+.menu ul li:hover {
+    border-bottom: 3px solid yellow;
+}
+
+.menu li a:hover {
+    color: yellow;
+}
+
+.menu ul li a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.logoinicio {
+    height: 350px;
+}
+
+.logoinicio img {
+    position: absolute;
+    right: 10px;
+    animation: slide-in 2s forwards;
+    margin-left: 90px;
+    margin-top: 50px;
+    padding-right: 30px;
+    border-right: solid black 3px;
+}
+
+@keyframes slide-in {
+    0% {
+        right: -1000px;
+    }
+
+    100% {
+        right: 750px;
+    }
+}
+
+.textoinicio p {
+    font-family: Didot, serif;
+    font-size: 20px;
+    position: relative;
+    right: -130px;
+    top: -200px;
+    float: right;
+    line-break: AUTO;
+    text-align: center;
+    width: 600px;
+    margin: 0;
+}
+
+.textoinicio h1 {
+    font-family: 'Oswald', sans-serif;
+    position: relative;
+    right: 250px;
+    top: -300px;
+    float: right;
+    text-align: center;
+}
+
+.fade-in {
+    opacity: 0;
+    animation: fade-in 3s forwards;
+}
+
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+.footer0 {
+    background-color: white;
+    position: relative;
+    top: -20px;
+}
+
+.texto-destaque h1 {
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.texto-destaque p {
+    font-family: Didot, serif;
+    font-size: 15px;
+    margin: 0 30px;
+}
+
+.texto-destaque strong {
+    color: #646464;
+}
+
+.imagens-destaque {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+
+.imagens-destaque img {
+    padding: 0 50px;
+}
+
+.nos {
+    background-color: #FFD500;
+    text-align: center;
+    height: 350px;
+}
+
+.nos h1 {
+    margin: 60px;
+    position: relative;
+    top: 50px;
+    font-family: Didot, serif;
+}
+
+.nos p {
+    position: relative;
+    right: -200px;
+    top: 20px;
+    width: 950px;
+    font-size: 20px;
+    margin: 0;
+    font-family: Didot, serif;
+}
+
+.h1-title h1 {
+    margin: 0;
+}
+
+.cores {
+    background-color: #FFD500;
+    text-align: center;
+    height: 450px;
+    padding-top: 20px;
+}
+
+.cores h1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.cores p {
+    position: relative;
+    right: -300px;
+    width: 950px;
+    font-size: 20px;
+    margin: 0;
+    font-family: Didot, serif;
+}
+
+.cores-img {
+    display: flex;
+    justify-content: center;
+}
+
+.cores-img img {
+    margin: 30px 150px 20px;
+}
+
+.texto-cores {
+    position: relative;
+    right: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-cores P {
+    text-align: center;
+    font-family: Didot, serif;
+    font-size: 20px;
+    color: black;
+    margin: 0 50px;
+}
+
+.texto-destaque2 h1 {
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif
+}
+
+.fundoquadra {
+    position: relative;
+    top: -20px;
+    background-color: white;
+    height: 500px;
+}
+
+.quadra2 h1 {
+    position: relative;
+    top: -50px;
+    text-transform: uppercase;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.mapinha {
+    position: relative;
+    top: -40px;
+}
+
+.videoquadra {
+    position: relative;
+    top: 90px;
+    right: 90px;
+    float: right;
+}
+
+.textoquadra {
+    position: relative;
+    left: 100px;
+    top: 90px;
+    width: 200px;
+}
+
+.treino-videos {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    height: 350px;
+}
+
+.treino-videos video {
+    margin: 30px;
+}
+
+.h1-videos {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.h1-videos h1 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    background-color: black;
+    margin: 50px 120px;
+}
+
+.texto-videos {
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.texto-videos p {
+    text-align: center;
+    font-family: Didot, serif;
+    font-size: 12px;
+    color: white;
+    background-color: black;
+    margin: 0 30px;
+}
+
+.todosuniformes1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.todosuniformes1 img {
+    border: solid 3px black;
+    border-radius: 20px;
+    margin-top: 60px;
+}
+
+.todosuniformes1 p {
+    margin: 0;
+    text-align: center;
+    font-family: Didot, serif;
+}
+
+.todosuniformes1 h2 {
+    text-align: center;
+    margin: 20px 0 20px 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logos {
+    display: flex;
+    justify-content: center;
+}
+
+.logo-img img {
+    margin-left: 50px;
+}
+
+.logo-img img:hover {
+    position: relative;
+    top: -20px;
+}
+
+
+
+body {
+    background-color: yellow;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+.container2 {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid black;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 5px;
+}
+
+input[type="submit"] {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="submit"]:hover {
+    background-color: gray;
+}
+
+
+
+
+
+.site-footer {
+    background-color: black;
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #737373;
+}
+
+.site-footer hr {
+    border-top-color: #bbb;
+    opacity: 0.5
+}
+
+.site-footer hr.small {
+    margin: 20px 0
+}
+
+.site-footer h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px
+}
+
+.site-footer a {
+    color: #737373;
+}
+
+.site-footer a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links {
+    padding-left: 0;
+    list-style: none
+}
+
+.footer-links li {
+    display: block
+}
+
+.footer-links a {
+    color: #737373
+}
+
+.footer-links a:active,
+.footer-links a:focus,
+.footer-links a:hover {
+    color: #3366cc;
+    text-decoration: none;
+}
+
+.footer-links.inline li {
+    display: inline-block
+}
+
+.site-footer .social-icons {
+    text-align: right
+}
+
+.site-footer .social-icons a {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: 6px;
+    margin-right: 0;
+    border-radius: 100%;
+    background-color: #33353d
+}
+
+.copyright-text {
+    margin: 0
+}
+
+@media (max-width:991px) {
+    .site-footer [class^=col-] {
+        margin-bottom: 30px
+    }
+}
+
+@media (max-width:767px) {
+    .site-footer {
+        padding-bottom: 0
+    }
+
+    .site-footer .copyright-text,
+    .site-footer .social-icons {
+        text-align: center
+    }
+}
+
+.social-icons {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 4px
+}
+
+.social-icons li.title {
+    margin-right: 15px;
+    text-transform: uppercase;
+    color: #96a2b2;
+    font-weight: 700;
+    font-size: 13px
+}
+
+.social-icons a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear
+}
+
+.social-icons a:active,
+.social-icons a:focus,
+.social-icons a:hover {
+    color: #fff;
+    background-color: #29aafe
+}
+
+.social-icons.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px
+}
+
+.social-icons a.facebook:hover {
+    background-color: #3b5998
+}
+
+.social-icons a.twitter:hover {
+    background-color: #00aced
+}
+
+.social-icons a.linkedin:hover {
+    background-color: #007bb6
+}
+
+.social-icons a.dribbble:hover {
+    background-color: #ea4c89
+}
+
+@media (max-width:767px) {
+    .social-icons li.title {
+        display: block;
+        margin-right: 0;
+        font-weight: 600
+    }
+}
